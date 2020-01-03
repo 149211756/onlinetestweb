@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>在线考试系统,网上考试系统,在线答题系统-轻速云</title>
+  <meta name="keywords" content="在线考试系统,网上考试系统,在线答题系统">
+  <meta name="description" content="轻速云科技专注开发:在线考试系统,网上考试系统,在线答题系统,知识竞赛,网络测评,电子作业,培训学习等软件,免费支持微信、手机APP等多平台，模拟出题题库及试卷。">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+  <meta HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate">
+  <meta HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT">
+  <meta HTTP-EQUIV="expires" CONTENT="0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/computertest.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="iconfont/iconfont.css" />
+</head>
+
+<body>
+
+<div class="top">
+  <div class="top_middle">
+    <div class="logo"><a href="https://www.qingsuyun.com"><img border="0" src="/images/logo1.png" alt="轻速云在线考试系统" /></a></div>
+    <div class="nav">
+      <ul>
+        <li><a href="https://www.qingsuyun.com">首页</a></li>
+        <li><a href="https://www.qingsuyun.com/lib/">题库</a></li>
+        <li><a href="https://www.qingsuyun.com/price.html">价格</a></li>
+        <li><a href="https://www.qingsuyun.com/aboutus/">关于我们</a></li>
+        <li><a href="https://www.qingsuyun.com/docs/" target="_blank">帮助中心</a></li>
+        <li><a class="login_btn" href="https://www.qingsuyun.com/site/login" target="_blank" rel="nofollow">登录</a></li>
+        <li><a class="regist_btn" href="https://www.qingsuyun.com/site/regist" target="_blank" rel="nofollow">注册</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="banner">
+  <div class="banner_middle">
+    <div class="banner_left"><img src="images/sys.png" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务" /></div>
+    <div class="banner_right">
+      <div class="char_b_t1">更好的培训考试系统</div>
+      <div class="char_b_t2">专注于提升培训考试管理水平，节省培训考试成本，优雅的组织每场考试。</div>
+      <div class="char_b_t3">
+        <input class="char_b_t3_input" id="regist_phone_1" placeholder="请输入您的手机号" type="text" />
+        <a class="char_b_t3_a" href="javascript:void(0);" onclick="toRegistPage('regist_phone_1')">免费注册</a>
+      </div>
+    </div>
+    <div class="banner_amount">
+      <div><a>70,000+</a><br />机构的共同选择</div>
+      <div><a>1800万+</a><br />累计总考试人次</div>
+      <div><a>500万+</a><br />用户导入题目数量</div>
+    </div>
+  </div>
+</div>
+<div class="intro">
+  <div class="intro-block">
+    <div class="case_title"><a>满足多种业务场景</a><br />随时随地组织考试</div>
+    <div class="intro-block-8">
+      <div class="intro-8">
+        <div class="intro-8-icon f-left" style="font-size:28px"><i class="icon iconfont icon-zaixiankaoshi"></i></div>
+        <div class="intro-8-word f-right">
+          <div>考试考核</div>
+          <div class="intro-8-2">员工考核，招聘考试，大型校招，晋升考核，经销商考核等</div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="intro-8 m-left-40">
+        <div class="intro-8-icon f-left" style="font-size:28px"><i class="icon iconfont icon-peixunjihua"></i></div>
+        <div class="intro-8-word f-right">
+          <div>培训学习</div>
+          <div class="intro-8-2">PPT、WORD、EXCEL、PDF及音视频在线培训学习</div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="intro-8 m-left-40">
+        <div class="intro-8-icon f-left" style="font-size:28px"><i class="icon iconfont icon-canjiaxiaowaijingsai"></i></div>
+        <div class="intro-8-word f-right">
+          <div>知识竞赛</div>
+          <div class="intro-8-2">党政类知识竞赛，技能知识竞赛，校内知识竞赛等</div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="intro-8 m-left-40">
+        <div class="intro-8-icon f-left" style="font-size:28px"><i class="icon iconfont icon-chuangguan"></i></div>
+        <div class="intro-8-word f-right">
+          <div>闯关答题</div>
+          <div class="intro-8-2">技能闯关答题活动，知识闯关答题活动等</div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="intro-8">
+        <div class="intro-8-icon f-left" style="font-size:28px"><i class="icon iconfont icon-wenjuan"></i></div>
+        <div class="intro-8-word f-right">
+          <div>问卷调查</div>
+          <div class="intro-8-2">市场调研，满意度调查，产品调研，员工调研等</div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="intro-8 m-left-40">
+        <div class="intro-8-icon f-left" style="font-size:28px"><i class="icon iconfont icon-zuoyepigai"></i></div>
+        <div class="intro-8-word f-right">
+          <div>电子作业</div>
+          <div class="intro-8-2">作业电子化，方便查询与分析</div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="intro-8 m-left-40">
+        <div class="intro-8-icon f-left" style="font-size:28px"><i class="icon iconfont icon-shoufeiwendang"></i></div>
+        <div class="intro-8-word f-right">
+          <div>收费考试</div>
+          <div class="intro-8-2">考试收费功能，培训机构运营工具</div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="intro-8 m-left-40">
+        <div class="intro-8-icon f-left" style="font-size:28px"><i class="icon iconfont icon-weixinyingxiaohuodong"></i></div>
+        <div class="intro-8-word f-right">
+          <div>答题活动</div>
+          <div class="intro-8-2">闯关赢红包活动，年会答题红包活动等</div>
+        </div>
+        <div style="clear: both;"></div>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+  </div>
+</div>
+<div class="case_title"><a>功能强大，且容易上手</a><br />提供培训考试全功能</div>
+<div class="s1">
+  <div class="f-left"><img src="images/intro/s1.png" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务"></div>
+  <div class="f-right s-word">
+    <div class="s-title">多种题型支持</div>
+    <div class="s-content">
+      <ul>
+        <li><span style="color:#484848">• </span>单选题、多选题、判断题、填空题、简答题、组合题（阅读理解）</li>
+        <li><span style="color:#484848">• </span>多选题支持漏选给分，填空题支持按空给分</li>
+        <li><span style="color:#484848">• </span>客观题支持自动判分，主观题支持后台人工阅卷</li>
+        <li><span style="color:#484848">• </span>支持Excel、Word题库批量导入，可导入复杂公式和图片</li>
+        <li><span style="color:#484848">• </span>题目支持富文本格式，可上传音视频</li>
+      </ul>
+    </div>
+    <div class="s-content">
+      <a class="s-btn" href="javascript:void(0);" onclick="toRegistPage2()">免费使用</a>
+    </div>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+<div class="s1">
+  <div class="f-left s-word">
+    <div class="s-title">高效组卷方式，三分钟准备一场考试</div>
+    <div class="s-content">
+      <ul>
+        <li><span style="color:#484848">• </span>支持手动选题和随机抽题组卷</li>
+        <li><span style="color:#484848">• </span>随机抽题可配置按题型、题目难度和所属题库等组合条件抽题</li>
+        <li><span style="color:#484848">• </span>固定试卷也支持题目和选项乱序功能</li>
+        <li><span style="color:#484848">• </span>多重防作弊手段，切屏监控、随机题目、强制绑定微信等</li>
+        <li><span style="color:#484848">• </span>考试结果多维度分析，正确率、参与率、选项选择比率等</li>
+      </ul>
+    </div>
+    <div class="s-content">
+      <a class="s-btn" href="javascript:void(0);" onclick="toRegistPage2()">免费使用</a>
+    </div>
+  </div>
+  <div class="f-right"><img src="images/intro/s2.png" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务"></div>
+  <div style="clear: both;"></div>
+</div>
+<div class="s1">
+  <div class="f-left"><img src="images/intro/s3.png" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务"></div>
+  <div class="f-right s-word">
+    <div class="s-title">培训学习“每个机构都是一所大学”</div>
+    <div class="s-content">
+      <ul>
+        <li><span style="color:#484848">• </span>培训课件支持WORD、PPT、EXCEL、PDF、音频和视频</li>
+        <li><span style="color:#484848">• </span>支持课程关联考试，课程学习完成后即可直接参加考试</li>
+        <li><span style="color:#484848">• </span>电脑端和手机端都可以进行课程学习</li>
+        <li><span style="color:#484848">• </span>管理员可查看学员的学习进度</li>
+      </ul>
+    </div>
+    <div class="s-content">
+      <a class="s-btn" href="javascript:void(0);" onclick="toRegistPage2()">免费使用</a>
+    </div>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+<div class="deploy">
+  <div class="s2">
+    <div class="case_title"><a>多种部署方式随心选择</a></div>
+    <div class="s2-b m-105">
+      <div class="s2-img">
+        <img src="images/intro/1.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">公有云</div>
+        <div class="s2-content">无需本地环境准备，按需购买帐户，专业团队提供运维保障服务，一周一次的版本迭代</div>
+      </div>
+    </div>
+    <div class="s2-b m-80">
+      <div class="s2-img">
+        <img src="images/intro/2.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">私有云</div>
+        <div class="s2-content">企业隔离的云服务器环境，高可用性，网络及应用层完整隔离，数据高度自主可控</div>
+      </div>
+    </div>
+    <div class="s2-b m-80">
+      <div class="s2-img">
+        <img src="images/intro/3.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">本地服务器</div>
+        <div class="s2-content">基于Linux/Windows的本地化部署，支持高可用集群，快速弹性扩展，数据高度自主可控</div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+  <div class="s2">
+    <div class="case_title"><a>完善的服务支持体系</a></div>
+    <div class="s2-b m-105">
+      <div class="s2-img">
+        <img src="images/intro/4.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">1:1客户成功顾问</div>
+        <div class="s2-content">资深客户成功顾问对企业进行调研、沟通需求、制定个性化的解决方案，帮助企业落地</div>
+      </div>
+    </div>
+    <div class="s2-b m-80">
+      <div class="s2-img">
+        <img src="images/intro/5.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">完善的培训体系</div>
+        <div class="s2-content">根据需求定制培训内容，为不同角色给出专属培训方案，线上线下培训渠道全覆盖</div>
+      </div>
+    </div>
+    <div class="s2-b m-80">
+      <div class="s2-img">
+        <img src="images/intro/6.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">全面的支持服务</div>
+        <div class="s2-content">多种支持服务让企业无后顾之忧，7*24 线上支持、在线反馈、中英文邮件支持、上门支持</div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+  <div class="s2">
+    <div class="case_title"><a>多重安全策略保护数据</a></div>
+    <div class="s2-b m-105">
+      <div class="s2-img">
+        <img src="images/intro/7.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">高可用性保证</div>
+        <div class="s2-content">多重方式保证数据不丢失，高可用故障转移，异地容灾备份，99.99%可用性保证</div>
+      </div>
+    </div>
+    <div class="s2-b m-80">
+      <div class="s2-img">
+        <img src="images/intro/8.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">数据加密</div>
+        <div class="s2-content">多重方式保证数据不泄漏，基于TLS 的数据加密传输，DDOS 防御和入侵检测</div>
+      </div>
+    </div>
+    <div class="s2-b m-80">
+      <div class="s2-img">
+        <img src="images/intro/9.svg" alt="轻速云在线考试系统，提供专业的在线培训考试，在线答题，知识竞赛服务">
+      </div>
+      <div class="s2-word">
+        <div class="s2-title">帐户安全</div>
+        <div class="s2-content">多重方式保证帐户安全，远程会话控制，安全日志，加密存储等</div>
+      </div>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+</div>
+<div class="case">
+  <div class="case_title"><a>超过 2万 企事业单位使用</a><br />谁在使用</div>
+  <div class="case_middle">
+    <div class="case_two">
+      <div><img src="images/case/1.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/2.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/3.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/4.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/5.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/6.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/7.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/8.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/9.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/10.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/11.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/12.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/13.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/14.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+      <div><img src="images/case/15.gif" alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" /></div>
+    </div>
+  </div>
+</div>
+<div class="news">
+  <div class="news_title"><a>新闻中心</a></div>
+  <div class="news_middle">
+    <ul class="card">
+      <li>
+        <a href="/news/386/" class="card_a">
+          <div class="card_title"><h3>网上考试是怎么一回事 网上考试要怎么考</h3></div>
+          <div class="card_content">从古至今，检验成绩最常用的方式就是考试，虽然说考试的成绩不能代表最后的学习成果，但其实它也是一定学习效果的反映。自从互联网时代的带来，慢慢的从纸张考试发展为网上考试，也可以叫无纸化考试，但是还是有很多不知道网上考试怎么考？在哪考？下面小编给大家简单的介绍下。</div>
+        </a>
+      </li>
+      <li>
+        <a href="/news/385/" class="card_a">
+          <div class="card_title"><h3>好用的局域网考试系统推荐 局域网在线考试系统哪个好</h3></div>
+          <div class="card_content">如果我们选择考试系统，希望可以通过企业内网进行访问，或可以本地部署到自己的服务器上，数据更加的保密、安全，那么我们可以选择局域网在线考试系统。</div>
+        </a>
+      </li>
+      <li>
+        <a href="/news/384/" class="card_a">
+          <div class="card_title"><h3>轻速云考试平台可以做填空题吗</h3></div>
+          <div class="card_content">在线考试系统中比较多见的是选择题和判断题，填空题出现的次数并不太多。所以某些用户担心轻速云在线考试系统是否支持填空题，就会询问轻速云考试平台可以做填空题吗？答案当然是肯定的。轻速云在线考试系统不光可以设置填空题，并且填空题功能相当完善哦。下面小编就给大家介绍一下轻速云考试平台怎么做填空题。</div>
+        </a>
+      </li>
+    </ul>
+    <div style="clear:both"></div>
+    <div class="news_more">
+      <a href="/news/">更多文章</a>
+    </div>
+  </div>
+</div>
+
+<div class="bottom">
+  <div class="bottom_middle">
+    <div class="bottom_regist">
+      <div class="bottom_regist_title"><span>开始使用轻速云组织考试</span><br />轻速云考试平台非常容易上手，从创建题库开始，您将获得更好的体验。</div>
+      <div><input class="bottom_regist_input" id="regist_phone_2" placeholder="请输入您的手机号" type="text" /><a class="bottom_regist_a"
+                                                                                                          href="javascript:void(0);" onclick="toRegistPage('regist_phone_2')">免费注册</a></div>
+    </div>
+    <div class="bottom_link">
+      <ul class="column">
+        <li>
+          <h2>产品</h2>
+        </li>
+        <li><a href="https://www.qingsuyun.com/lib/">题库</a></li>
+        <li><a href="https://www.qingsuyun.com/docs/" target="_blank">功能介绍</a></li>
+        <li><a href="https://www.qingsuyun.com/price.html">价格</a></li>
+        <li><a href="https://www.qingsuyun.com/site/login" rel="nofollow">入口</a></li>
+      </ul>
+      <ul class="column">
+        <li>
+          <h2>帮助中心</h2>
+        </li>
+        <li><a href="https://www.qingsuyun.com/docs/" target="_blank">题库管理</a></li>
+        <li><a href="https://www.qingsuyun.com/docs/m-exam.html" target="_blank">考试管理</a></li>
+        <li><a href="https://www.qingsuyun.com/docs/m-exercise.html" target="_blank">练习管理</a></li>
+        <li><a href="https://www.qingsuyun.com/docs/m-member.html" target="_blank">成员管理</a></li>
+      </ul>
+      <ul class="column">
+        <li>
+          <h2>安卓APP下载</h2>
+        </li>
+        <li><img src="/images/qsy-admin-v1.0.png" width="120" alt="轻速云在线考试系统安卓APP下载二维码"></li>
+        <li></li>
+      </ul>
+      <ul class="column">
+        <li>
+          <h2>微信公众号</h2>
+        </li>
+        <li><img src="/images/wx_gzh.jpg" width="120" alt="轻速云在线考试系统微信公众号二维码"></li>
+        <li></li>
+      </ul>
+      <ul class="column">
+        <li>
+          <h2>微信小程序</h2>
+        </li>
+        <li><img src="/images/xcx.jpg" width="120" alt="轻速云在线考试系统微信小程序二维码"></li>
+        <li></li>
+      </ul>
+      <ul class="column">
+        <li>
+          <h2>客服热线</h2>
+        </li>
+        <li class="bot_phone" style="padding-top:10px"><span>400-886-8169</span></li>
+        <li class="bot_phone_time">周一至周日 8:00-22:00</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="bottom_cr">
+  <div class="bottom_cr_middle">
+    &copy;2019&nbsp;轻速云&nbsp;苏ICP备16049646号
+    </br>轻速云科技提供专业的<a href="https://www.qingsuyun.com">在线考试系统</a>、在线培训系统。
+  </div>
+</div>
+<div class="contact-us-box">
+  <a class="qq online-consulting" target="_blank" onclick="onlineConcact()" style="border-bottom: 1px solid #DDD;" rel="nofollow">
+    <p class="img" style="margin-bottom:0;"><i class="icon iconfont icon-zaixianzixun"></i></p>
+    <p class="prompt" style="margin-bottom:0;">在线咨询</p>
+  </a>
+  <a class="qq" href="http://wpa.qq.com/msgrd?v=3&amp;uin=2898606116&amp;site=qq&amp;menu=yes" target="_blank" rel="nofollow">
+    <p class="img" style="margin-bottom:0;"><i class="icon iconfont icon-qq-copy"></i></p>
+    <p class="prompt" style="margin-bottom:0;">QQ在线咨询</p>
+  </a>
+  <a class="tel separator">
+    <p class="prompt" style="margin-bottom:0;">咨询热线</p>
+    <p class="text" style="margin-bottom:0;">400-886-8169</p>
+  </a>
+  <a class="qr separator">
+    <img alt="轻速云在线培训系统，提供专业的在线测评，问卷调查，在线答题系统服务" src="/images/wx_gzh.jpg" />
+  </a>
+</div>
+<script type="text/javascript" src="https://www.qingsuyun.com/js/main.js?v=2019080100014"></script>
+
+</body>
+<script>(function() {var _53code = document.createElement("script");_53code.src = "https://tb.53kf.com/code/code/e9ef4c902ac1c95366310e66bb01d0d63/1";var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(_53code, s);})();</script>
+</html>
